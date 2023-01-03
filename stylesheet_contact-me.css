@@ -83,10 +83,9 @@ p {
 	background-color: #5fadb9;
 	font-size: 20px;
 	font-family: "Alata", sans-serif;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    position: fixed;
 }
 
 @media only screen and (max-device-width: 490px) {
