@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Mono">
-    <link rel="stylesheet" type="text/css" href="stylesheet_contact-me.css"/>
-    <title>Contact me</title>
-</head>
-<body>
-    <div id="wrapperHeading"> <!-- heading -->
-        <br>
-        <br>
-        <div>
-            <h1 id="heading">Pong</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Mono">
+        <link rel="stylesheet" type="text/css" href="stylesheet_contact-me.css"/>
+        <title>Contact me</title>
+    </head>
+    <body>
+        <div id="wrapperHeading"> <!-- heading -->
+            <div>
+                <div id="btn">
+                    <button type="button", onclick="window.location.href = 'index.html'">Back to home</button>
+                </div>
+                <h1 id="heading">Contact me</h1>
+            </div>
+            <br>
+            <br>
         </div>
-        <br>
-        <br>
-        <div>
-            <p id="subHeading">
-                <b>A clone of the original.</b>
-            </p>
+        <div class="wrapperParagraph"> <!-- what this is -->
+            <h1 id="whatHeading"><b>$</b> ls</h1>
+            <div>
+                <table class="paragraphDiv">
+                    <tr>
+                        <td>
+                            <p class="lsItem">
+                                Email: mnjx@tuta.io
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="lsItem">
+                                GitHub: <a href="https://github.com/mnjx">mnjx</a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>    
+            </div>  
         </div>
-    </div>
-    <div class="wrapperParagraph"> <!-- what this is -->
-        <h1 id="whatHeading"><b>$</b> cat how_it_works.md</h1>
-        <div class="paragraphDiv">
-            <p>
-                This is a clone of the infamous game, Pong. It is written in Python
-                using the tkinter library for the user interface (UI). It is still
-                in early development, so if you find any bugs or imperfections in
-                the code, feel free to contact me.
-            </p>
-        </div>  
-    </div>
-    <footer id="footer">
-        © 2022 mnjx
-    </footer>
-    <div id="btn">
-        <button type="button", onclick="window.location.href = 'index.html'">Back to home</button>
-    </div>
-</body>
+        <footer id="footer"> <!-- footer -->
+            © 2022 mnjx
+        </footer>
+    </body>
 </html>
