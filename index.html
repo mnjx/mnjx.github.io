@@ -1,90 +1,55 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>mnjx</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">	
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Mono">
-		<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-		<script type="text/javascript" src="script.js"></script>
-	</head>
-	<body>
-		<div id="wrapperHeading"> <!-- heading -->
-			<br>
-			<br>
-			<div>
-				<h1 id="heading">mnjx</h1>
-			</div>
-			<br>
-			<br>
-			<div>
-				<p id="subHeading">
-					<b>A Python developer.</b>
-				</p>
-			</div>
-		</div>
-		<div class="wrapperParagraph"> <!-- why -->
-			<div class="paragraph">
-				<h1 id="procHeading"><b>$</b> whoami</h1>
-				<p id="pp">
-				  I am a software developer from the Czech Republic and I am currently studying
-				  computer science in my homeland. I mainly develop Python CLI programs, but I 
-				  also develop GUI programs using the tkinter library and I do front-end web 
-				  development as well.<br><br>
-				</p>
-				<p>
-				  <a href="contact-me.html", class="btn">Contact me</a>
-				</p>
-			</div>  
-		</div>
-		<div class="between"> <!-- important info -->
-			<div>
-				<h1 id="importantInfoHeading">$ ls</h1>
-			</div>
-			<div>
-				<p id="infoParagraph">
-				  	<div>
-				    	<table class="ls" cellspacing="30">
-							<tr>
-								<td class="lsitem">
-									<img src="pong.png"></img>
-									<p class="lsheading"><a href="pong.html">Pong</a></p>
-									<p>
-										<a href="https://www.github.com/mnjx/pong">GitHub repo</a>
-										<br>
-										<br>
-										<br>
-										<br>
-										<br>
-										<br>
-									</p>
-								</td>
-								<td class="lsitem">
-									<img src="budgeit.png"></img>
-									<p class="lsheading">BudgeIt</span></p>
-									<p>
-										A budgetting app written in Python using the tkinter library for the GUI.<br><br>
-										Work In Progress...
-									</p>
-								</td>
-								<td class="lsitem">
-									<img src="snek.png"></img>
-									<p class="lsheading">Snek</p>
-									<p>
-										A clone of snake written in Python using the tkinter library for the GUI.<br><br>
-										Work In Progress...
-									</p>
-								</td>
-							</tr>
-				    	</table>
-					</div>
-				</p>
-			</div>
-		</div>
-		<footer id="footer">
-			© 2022 mnjx
-		</footer>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet_index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <title>mnjx</title>
+</head>
+<body>
+    <div class="site_wrapper">
+        <div id="navbar_wrapper">
+            <table style="width: 100%;">
+                <tr>
+                    <td>
+                        <p>
+                           <a href="index.html">Home</a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="pong.html">Pong</a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="contact-me.html">Contact me</a>
+                        </p>
+                    </td>
+                    <td>
+                        <p class="navbar_right">
+                            <a href="https://github.com/mnjx">GitHub</a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="main_content_wrapper">
+            <h1 id="heading">mnjx</h1>
+            <p id="subheading">A developer.</p>
+            <p id="desc">
+                I am a software developer from the Czech Republic and I am currently studying
+                computer science in my homeland. I mainly develop Python CLI programs, but I 
+                also develop GUI programs using the tkinter library and I do front-end web 
+                development as well.
+            </p>
+        </div>  
+        <footer>
+            © 2022 mnjx
+        </footer>
+    </div>
+</body>
 </html>
